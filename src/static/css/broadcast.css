@@ -1,0 +1,37 @@
+.broadCast {
+  width: 3.75rem;
+}
+.broadCast .header {
+  width: 100%;
+}
+.broadCast .header .van-nav-bar {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+.broadCast .header .van-nav-bar .van-icon img {
+  width: .3rem;
+  margin-left: .1rem;
+}
+.broadCast .login {
+  width: 100%;
+  padding: 0.1rem 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.broadCast .login img {
+  border-radius: 0.24rem;
+  margin-right: 0.1rem;
+}
+.broadCast .login span {
+  font-size: 0.14rem;
+  color: #868686;
+}
+.broadCast .main {
+  width: 100%;
+}
+.broadCast .main .tab1 {
+  width: 100%;
+  padding: 0.2rem;
+}
+.broadCast .main .tab1 > li {
+  padding: 0.2rem 0;
+}

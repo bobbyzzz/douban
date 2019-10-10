@@ -1,0 +1,46 @@
+.mine {
+  width: 3.75rem;
+  font-size: 0.14rem;
+  color: #686868;
+  font-weight: 500;
+}
+.mine .header {
+  width: 100%;
+}
+.mine .header .van-nav-bar {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+.mine .header .van-nav-bar .van-icon img {
+  width: .3rem;
+}
+.mine .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.mine .title div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+}
+.mine .title div img {
+  margin-bottom: 0.1rem;
+}
+.mine .main {
+  width: 100%;
+}
+.mine .main li {
+  padding: 0.15rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mine .main li span {
+  padding-left: 0.1rem;
+}

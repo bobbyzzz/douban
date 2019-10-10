@@ -1,0 +1,91 @@
+.home {
+  width: 3.75rem;
+}
+.home .header {
+  height: 0.5rem;
+  background-color: #48bd5a !important;
+  padding: 0.05rem;
+  width: 100%;
+  display: flex;
+}
+.home .header form {
+  width: 3.2rem;
+  height: 100%;
+  position: relative;
+}
+.home .header form input {
+  width: 3.2rem;
+  height: 100%;
+  border-radius: 0.08rem;
+  text-indent: 0.5rem;
+}
+.home .header form .search {
+  width: 0.23rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home .header form .gray {
+  width: 0.23rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home .header .chat {
+  padding-left: 0.08rem;
+  padding-top: 0.05rem;
+  flex: 1;
+}
+.home .header .chat img {
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.home .banner {
+  width: 100%;
+}
+.home .banner img {
+  width: 100%;
+}
+.home .main {
+  width: 100%;
+}
+.home .main li {
+  border-bottom: 1px solid #ccc;
+  padding: 0.1rem 0.1rem 0.3rem;
+  display: flex;
+}
+.home .main li .main-l {
+  flex: 1;
+  padding-right: 0.1rem;
+}
+.home .main li .main-l p {
+  margin-bottom: 0.1rem;
+}
+.home .main li .main-l .title {
+  font-size: 0.16rem;
+  font-weight: 500;
+  line-height: 0.20rem;
+}
+.home .main li .main-l .content {
+  font-size: 0.16rem;
+  font-weight: 500;
+  line-height: 0.2rem;
+  color: #b1b1b1;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.home .main li .main-l .author {
+  font-size: 0.14rem;
+  color: #ccc;
+}
+.home .main li .main-r {
+  width: 1.28rem;
+}
+.home .main li .main-r img {
+  width: 100%;
+}

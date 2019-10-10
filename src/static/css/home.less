@@ -1,0 +1,110 @@
+.home {
+    width: 3.75rem;
+
+    .header {
+        height: 0.5rem;
+        background-color: #48bd5a !important;
+        padding: 0.05rem;
+        width: 100%;
+        display: flex;
+
+        form {
+            width: 3.2rem;
+            height: 100%;
+            position: relative;
+
+            input {
+                width: 3.2rem;
+                height: 100%;
+                border-radius: 0.08rem;
+                text-indent: 0.5rem;
+            }
+
+            .search {
+                width: 0.23rem;
+                position: absolute;
+                left: 0.1rem;
+                top: 50%;
+                transform: translateY(-50%)
+            }
+
+            .gray {
+                width: 0.23rem;
+                position: absolute;
+                right: 0.2rem;
+                top: 50%;
+                transform: translateY(-50%)
+            }
+        }
+
+        .chat {
+            padding-left: 0.08rem;
+            padding-top: 0.05rem;
+            flex: 1;
+
+            img {
+                width: 0.32rem;
+                height: 0.32rem;
+            }
+        }
+    }
+
+    .banner {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .main {
+        width: 100%;
+
+        li {
+            border-bottom: 1px solid #ccc;
+            padding: 0.1rem 0.1rem 0.3rem;
+            display: flex;
+
+            .main-l {
+                flex: 1;
+                padding-right: 0.1rem;
+
+                p {
+                    margin-bottom: 0.1rem;
+                }
+
+                .title {
+                    font-size: 0.16rem;
+                    font-weight: 500;
+                    line-height: 0.20rem;
+                }
+
+                .content {
+                    font-size: 0.16rem;
+                    font-weight: 500;
+                    line-height: 0.2rem;
+                    color: #b1b1b1;
+                    display: -webkit-box;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+
+                .author {
+                    font-size: 0.14rem;
+                    color: #ccc;
+                }
+            }
+
+            .main-r {
+                width: 1.28rem;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
